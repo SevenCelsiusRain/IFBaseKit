@@ -1,0 +1,16 @@
+PODS:
+  - IFBaseKit (0.1.0)
+
+DEPENDENCIES:
+  - IFBaseKit (from `../`)
+
+EXTERNAL SOURCES:
+  IFBaseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IFBaseKit: a8e58860495077fb54ca99335b5d053c402d145b
+
+PODFILE CHECKSUM: a60d346a1f5d70966b6047dbc58ffb4f2a4cb893
+
+COCOAPODS: 1.11.2
