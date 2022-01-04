@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+IFBaseKit in Pods, no dependencies
+Pods-IFBaseKit_Example in Pods, depends on:
+IFBaseKit in Pods (explicit)
+Pods-IFBaseKit_Tests in Pods, depends on:
+Pods-IFBaseKit_Example in Pods (explicit)
