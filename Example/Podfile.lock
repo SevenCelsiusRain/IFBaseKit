@@ -1,9 +1,9 @@
 PODS:
   - DZNEmptyDataSet (1.8.1)
-  - IFBaseKit (0.0.0.3):
-    - DZNEmptyDataSet (= 1.8.1)
-    - Masonry (= 1.1.0)
-    - MJRefresh (= 3.7.5)
+  - IFBaseKit (0.0.0.4):
+    - DZNEmptyDataSet
+    - Masonry
+    - MJRefresh
   - Masonry (1.1.0)
   - MJRefresh (3.7.5)
 
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  IFBaseKit: b0527d3a56bd8fc999812b280f36461fa0a4f36c
+  IFBaseKit: d8dcbfa848062e77f180b7b62a98a7e368a40af5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
 
