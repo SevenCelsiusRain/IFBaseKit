@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IFBaseKit'
-  s.version          = '0.0.0.2'
+  s.version          = '0.0.0.3'
   s.summary          = '相关 base'
 
   s.description      = <<-DESC
@@ -30,7 +30,7 @@ controller、navigation、refresh、collection、tableview、tabbar
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
-   s.dependency 'MJRefresh', '~>3.7.5'
-   s.dependency 'DZNEmptyDataSet', '~>1.8.1'
-   s.dependency 'Masonry', '~>1.1.0'
+   s.dependency 'MJRefresh', '~> 3.0.0'
+   s.dependency 'DZNEmptyDataSet', '~> 1.8.0'
+   s.dependency 'Masonry', '~> 1.1.0'
 end

@@ -1,6 +1,6 @@
 {
   "name": "IFBaseKit",
-  "version": "0.0.0.1",
+  "version": "0.0.0.3",
   "summary": "相关 base",
   "description": "controller、navigation、refresh、collection、tableview、tabbar",
   "homepage": "https://ifgitlab.gwm.cn/iov-ios/IFBaseKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "http://10.255.35.174/iov-ios/IFBaseKit.git",
-    "tag": "0.0.0.1"
+    "tag": "0.0.0.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,13 +22,13 @@
   "frameworks": "UIKit",
   "dependencies": {
     "MJRefresh": [
-
+      "3.7.5"
     ],
     "DZNEmptyDataSet": [
-
+      "1.8.1"
     ],
     "Masonry": [
-
+      "1.1.0"
     ]
   }
 }
