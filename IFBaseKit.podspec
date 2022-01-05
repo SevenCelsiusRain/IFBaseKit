@@ -30,7 +30,7 @@ controller、navigation、refresh、collection、tableview、tabbar
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
-   s.dependency 'MJRefresh'
-   s.dependency 'DZNEmptyDataSet'
-   s.dependency 'Masonry'
+   s.dependency 'MJRefresh', '~>3.7.5'
+   s.dependency 'DZNEmptyDataSet', '~>1.8.1'
+   s.dependency 'Masonry', '~>1.1.0'
 end
