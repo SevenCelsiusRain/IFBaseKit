@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IFTableViewController : IFRefreshController
+@interface IFTableViewController : IFRefreshController<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, assign, readonly) UITableViewStyle tableViewStyle;
 @property (nonatomic, strong, readonly) UITableView *tableView;

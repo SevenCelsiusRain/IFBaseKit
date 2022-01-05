@@ -1,15 +1,30 @@
 PODS:
-  - IFBaseKit (0.1.0)
+  - DZNEmptyDataSet (1.8.1)
+  - IFBaseKit (0.0.0.1):
+    - DZNEmptyDataSet
+    - Masonry
+    - MJRefresh
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
 
 DEPENDENCIES:
   - IFBaseKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DZNEmptyDataSet
+    - Masonry
+    - MJRefresh
 
 EXTERNAL SOURCES:
   IFBaseKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IFBaseKit: a8e58860495077fb54ca99335b5d053c402d145b
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IFBaseKit: 05b480d5138525dfc496704569a6501031a33010
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
 
 PODFILE CHECKSUM: a60d346a1f5d70966b6047dbc58ffb4f2a4cb893
 

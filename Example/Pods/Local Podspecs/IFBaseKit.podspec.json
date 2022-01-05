@@ -1,9 +1,9 @@
 {
   "name": "IFBaseKit",
-  "version": "0.1.0",
-  "summary": "A short description of IFBaseKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/张高磊/IFBaseKit",
+  "version": "0.0.0.1",
+  "summary": "相关 base",
+  "description": "controller、navigation、refresh、collection、tableview、tabbar",
+  "homepage": "https://ifgitlab.gwm.cn/iov-ios/IFBaseKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,23 @@
     "张高磊": "mrglzh@yeah.net"
   },
   "source": {
-    "git": "https://github.com/张高磊/IFBaseKit.git",
-    "tag": "0.1.0"
+    "git": "http://10.255.35.174/iov-ios/IFBaseKit.git",
+    "tag": "0.0.0.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
-  "source_files": "IFBaseKit/Classes/**/*"
+  "source_files": "IFBaseKit/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ],
+    "Masonry": [
+
+    ]
+  }
 }

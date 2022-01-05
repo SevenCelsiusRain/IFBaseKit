@@ -8,5 +8,7 @@
 #ifndef IFRefresh_h
 #define IFRefresh_h
 
+#import <IFBaseKit/IFRefreshManager.h>
+#import <IFBaseKit/UIScrollView+IFRefreshAddition.h>
 
 #endif /* IFRefresh_h */

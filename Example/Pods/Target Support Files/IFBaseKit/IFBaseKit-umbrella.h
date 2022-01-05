@@ -10,6 +10,17 @@
 #endif
 #endif
 
+#import "IFBaseCollectionController.h"
+#import "IFBaseController.h"
+#import "IFBaseNavigationController.h"
+#import "IFControllers.h"
+#import "IFRefresh.h"
+#import "IFRefreshController.h"
+#import "IFRefreshManager.h"
+#import "IFTabbarController.h"
+#import "IFTableDataSource.h"
+#import "IFTableViewController.h"
+#import "UIScrollView+IFRefreshAddition.h"
 
 FOUNDATION_EXPORT double IFBaseKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char IFBaseKitVersionString[];
