@@ -289,7 +289,7 @@
 		A828B96C41300904AAC1CB20B8AD1383 /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
 		A87BFD82136DFBEF2F09E7F3D00C5A24 /* IFRefreshManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFRefreshManager.h; path = IFBaseKit/Classes/IFRefreshManager.h; sourceTree = "<group>"; };
 		A8C2980A215089116CC2D1BC201577B6 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		AC72B83BD5CD334D45CF024B445DC522 /* IFBaseKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IFBaseKit; path = IFBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC72B83BD5CD334D45CF024B445DC522 /* IFBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IFBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD79D1FF78A89B9160C8E441C7F2A0F4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		AFFC5C947E8C093973DD368512B496DB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		B16D6CF7CD50C0F4587F9D0419A6D22E /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
@@ -598,7 +598,7 @@
 			isa = PBXGroup;
 			children = (
 				5DA4577FE3BC4A03751108FFED07B385 /* DZNEmptyDataSet */,
-				AC72B83BD5CD334D45CF024B445DC522 /* IFBaseKit */,
+				AC72B83BD5CD334D45CF024B445DC522 /* IFBaseKit.framework */,
 				1FFED36A657123030ABB700256D73F15 /* Masonry */,
 				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */,
 				E6C22D7737ADCBA405197F54E4D9FB84 /* Pods-IFBaseKit_Example */,
@@ -910,7 +910,7 @@
 			);
 			name = IFBaseKit;
 			productName = IFBaseKit;
-			productReference = AC72B83BD5CD334D45CF024B445DC522 /* IFBaseKit */;
+			productReference = AC72B83BD5CD334D45CF024B445DC522 /* IFBaseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1BCD9702276377FB5B3BDB6EAF709D7 /* DZNEmptyDataSet */ = {
@@ -1334,11 +1334,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.0.1;
 				MODULEMAP_FILE = "Target Support Files/IFBaseKit/IFBaseKit.modulemap";
 				PRODUCT_MODULE_NAME = IFBaseKit;
 				PRODUCT_NAME = IFBaseKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1364,11 +1366,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.0.1;
 				MODULEMAP_FILE = "Target Support Files/IFBaseKit/IFBaseKit.modulemap";
 				PRODUCT_MODULE_NAME = IFBaseKit;
 				PRODUCT_NAME = IFBaseKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
