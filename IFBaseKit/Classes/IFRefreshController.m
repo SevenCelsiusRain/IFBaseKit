@@ -34,13 +34,13 @@
 }
 
 #pragma mark - Life Cycle
-- (void)ma_setupViews {
+- (void)if_setupViews {
     [self.view addSubview:self.refreshContainerView];
     [self configureRefreshHeaderAndFooter];
     [self configureEmptyDataViews];
 }
 
-- (void)ma_configureConstraints {
+- (void)if_configureConstraints {
     if_weakify(self)
     [self.refreshContainerView mas_makeConstraints:^(MASConstraintMaker *make) {
         if_strongify(self)

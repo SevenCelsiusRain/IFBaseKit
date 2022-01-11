@@ -196,7 +196,7 @@
 		0B64B3AC5DBCE55219EAD718BD914EC6 /* MJRefreshTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshTrailer.h; path = MJRefresh/Base/MJRefreshTrailer.h; sourceTree = "<group>"; };
 		0D454FD591AF42AEC1A3E4D0C34353C8 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		0D62E98283B54B69D3666AE5C3BCE778 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		0F1C3F08F40D1B56242E003B89E371D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F1C3F08F40D1B56242E003B89E371D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F8CC0083C0EB8CA271476E103F28CB6 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
 		11EDBFBD2D528D284F84F493713837E3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		12D287C773EFBA671E80F1139BEBD227 /* IFTableDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTableDataSource.m; path = IFBaseKit/Classes/IFTableDataSource.m; sourceTree = "<group>"; };
@@ -249,7 +249,7 @@
 		63CF05DAF1A7A04608B814A9FB1B63D9 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
 		663FD00FBB663CD53DB3B6A6CE5776D6 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
 		671EB5CE24E7FA657B1B56825FA59202 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		686F5FC69730581FC217120BD5BB171D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		686F5FC69730581FC217120BD5BB171D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6F0D200B7622442EE20DB9FB8C8547C5 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		707AE4638C082A774335120B149E6F0D /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		732CD16D3D9C78BE9A478DADB36968E0 /* Pods-IFBaseKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFBaseKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -281,7 +281,7 @@
 		98CB646C6DAD44253CED3591E242F4BE /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 		9936A685FDAEEF690A0941E573F6E3CD /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		9A4332D615131855616B54A7E9009445 /* IFTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTableViewController.m; path = IFBaseKit/Classes/IFTableViewController.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2DCF9E96D34AF935EB776A4F3525978 /* Pods-IFBaseKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFBaseKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		A57D118E5ACC7A647BFDCC928F9B6E07 /* IFBaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFBaseKit.release.xcconfig; sourceTree = "<group>"; };
 		A5BDC0475FFA0B004A8EAC96EF89F9EB /* IFControllers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFControllers.h; path = IFBaseKit/Classes/IFControllers.h; sourceTree = "<group>"; };
@@ -317,7 +317,7 @@
 		D6763F3C5248AF5CB2292B57E74E7DDC /* Pods-IFBaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFBaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D727F5A46AB23BE7E3DB4673BAF30874 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		D73F073FC0835BAA5B3605B7E338B0F1 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		DC21E1E1B9F8F8DD5E828E3726F7DBFB /* IFBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFBaseKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC21E1E1B9F8F8DD5E828E3726F7DBFB /* IFBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IFBaseKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DC51D8912D0D576EAF1221A48243D45B /* Pods-IFBaseKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFBaseKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD00879760E6044FE301B022DF60A9D1 /* UICollectionViewLayout+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewLayout+MJRefresh.h"; path = "MJRefresh/UICollectionViewLayout+MJRefresh.h"; sourceTree = "<group>"; };
 		DD89248AD3E1AA0AA20640EA42C34AD7 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
@@ -411,13 +411,13 @@
 		0504BA247D5080C226CD72577AC2FE42 /* IFBaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				A5BDC0475FFA0B004A8EAC96EF89F9EB /* IFControllers.h */,
 				4E008F8453115E4D530F55A13561A5C2 /* IFBaseCollectionController.h */,
 				2E0AFF2B561C302D18C7B8ED3D234DAC /* IFBaseCollectionController.m */,
 				F48A72B1E6AE5B38248AFD0117FA1624 /* IFBaseController.h */,
 				746401058492FD2D0F6C2872C12FCC40 /* IFBaseController.m */,
 				1C3E5999681E9B087B93398E72814939 /* IFBaseNavigationController.h */,
 				38D0C3E0220A31154B5E2132236DA66E /* IFBaseNavigationController.m */,
-				A5BDC0475FFA0B004A8EAC96EF89F9EB /* IFControllers.h */,
 				8384C1BB3B19595FD0152D79FD85E59A /* IFRefresh.h */,
 				E06D81576C3E62945F24FABD8C550804 /* IFRefreshController.h */,
 				528B3634AE88D0C25756F0DEBC1D9653 /* IFRefreshController.m */,
@@ -453,7 +453,6 @@
 				0D454FD591AF42AEC1A3E4D0C34353C8 /* UIScrollView+EmptyDataSet.m */,
 				E1E5C2B4C526107F76F35859E305ACB2 /* Support Files */,
 			);
-			name = DZNEmptyDataSet;
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
@@ -553,7 +552,6 @@
 				0BE0E87AF642C80AC0C6EBC088549891 /* Resources */,
 				629DEABB75B841682EBE7A21B0080032 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -639,7 +637,6 @@
 				11EDBFBD2D528D284F84F493713837E3 /* ViewController+MASAdditions.m */,
 				F13FCD1F6CC6394BDA29385A6E04169B /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -1560,8 +1557,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
