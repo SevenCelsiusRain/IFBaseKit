@@ -47,7 +47,7 @@
         make.left.mas_equalTo(self.view.mas_left);
         make.right.mas_equalTo(self.view.mas_right);
         make.top.mas_equalTo(self.view.mas_top);
-        make.bottom.mas_equalTo(self.view.mas_bottomMargin);
+        make.bottom.mas_equalTo(self.view.mas_bottom);
     }];
 }
 
