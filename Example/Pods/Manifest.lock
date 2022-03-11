@@ -1,16 +1,34 @@
 PODS:
   - DZNEmptyDataSet (1.8.1)
-  - IFBaseKit (0.0.0.4):
+  - IFBaseKit (0.0.0.5):
     - DZNEmptyDataSet
     - Masonry
     - MJRefresh
+  - IFCommonKit (0.0.1.1)
+  - IFDeviceKit (0.0.1.1):
+    - IFKeyChainKit
+  - IFKeyChainKit (0.0.1.1):
+    - UICKeyChainStore
+  - IFKit (0.0.1.1):
+    - IFCommonKit
+    - IFDeviceKit
+    - IFKeyChainKit
   - Masonry (1.1.0)
   - MJRefresh (3.7.5)
+  - UICKeyChainStore (2.2.1)
 
 DEPENDENCIES:
   - IFBaseKit (from `../`)
+  - IFKit
 
 SPEC REPOS:
+  http://10.255.35.174/iov-ios/IFSpecs.git:
+    - IFCommonKit
+    - IFDeviceKit
+    - IFKeyChainKit
+    - IFKit
+  https://github.com/CocoaPods/Specs.git:
+    - UICKeyChainStore
   trunk:
     - DZNEmptyDataSet
     - Masonry
@@ -22,10 +40,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  IFBaseKit: d8dcbfa848062e77f180b7b62a98a7e368a40af5
+  IFBaseKit: 4f7e04c853d16d4229600462d1f80d4db4b94447
+  IFCommonKit: 5a121c14e5994596be0372419f1f6c92f1545eaa
+  IFDeviceKit: d1b9d424b85a7d1a419dad0587a666c9335db5f0
+  IFKeyChainKit: a37e37e832ff969bd454b5f81539fad698220ce8
+  IFKit: 68e4bc2d4b1b40d8cef2b8757f250199eaa7ed49
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
 
-PODFILE CHECKSUM: a60d346a1f5d70966b6047dbc58ffb4f2a4cb893
+PODFILE CHECKSUM: 9f90f31a1c0b338c53b3164a0d298b6b4d758128
 
 COCOAPODS: 1.11.2

@@ -1,9 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git' #官方仓库地址
+source 'http://10.255.35.174/iov-ios/IFSpecs.git'
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'IFBaseKit_Example' do
   pod 'IFBaseKit', :path => '../'
+  pod 'IFKit'
 
   target 'IFBaseKit_Tests' do
     inherit! :search_paths

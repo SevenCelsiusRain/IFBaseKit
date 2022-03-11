@@ -12,8 +12,8 @@
 
 #import "IFBaseCollectionController.h"
 #import "IFBaseController.h"
+#import "IFBaseKit.h"
 #import "IFBaseNavigationController.h"
-#import "IFControllers.h"
 #import "IFRefresh.h"
 #import "IFRefreshController.h"
 #import "IFRefreshManager.h"
